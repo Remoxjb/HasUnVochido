@@ -1,0 +1,50 @@
+
+
+/* Navbar */
+
+.imgLogo{
+    width: 200px;
+    height: 50px;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* carrusel */
+
+.img-carrusel{
+    height: calc(100vh - 76px) ;
+    object-fit: cover;
+    object-position: center;
+}
+
+.pantalla{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: calc(100vh - 76px) ;
+    
+    display: flex; /* para afectar al hijo que es cuadro */
+    justify-content: center;
+    align-items:flex-end;
+    text-align: center;
+}
+
+.cuadro{
+    background-color: rgba(0, 0, 0, 0.100);
+    border-radius: 10px;
+    color: white;
+    padding: 20px;
+    width: 50vw;
+}
+
+.img-card{
+   /*  width: 100%; se puede poner pero por default se queda al 100% */
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+/* video */
+.videoIframe{
+    width: 100%;
+    height: 250px;
+}
